@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Century;
+}
+.sidemenu{
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    padding: 222px 20px;
+    box-sizing: border-box;
+}
+/* ナビゲーションメニューの設定 */
+.item-nav{
+    background-color: #ffffff;
+    color: #333333;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-nav a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.side-line{
+    line-height: 300%;
+}
+/* メインページの設定 */
+.main{
+    width: 80%;
+    margin-left: 20%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.main img{
+    width: 80%;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 100px;
+    height: 100px;
+}
+
+.item-div{
+    border: 1px solid black;
+    width: 26%;
+    margin-bottom: 20px;
+    box-shadow: -10px 10px 0 0 #e0e2ee;
+}
+
+.item-div a{
+    text-decoration: none;
+    color: #333333;
+}
+/* マウスホバー */
+.item-div:hover{
+    opacity: 0.5;
+}
+
+/* ホーム以外のページの項目設定 */
+.titlediv h1{
+    margin: 0;
+}
+
+.titlediv{
+    position: relative;
+}
+.titlediv img{
+    width: 100%;
+    height: auto;
+}
+
+.sub-title{
+    text-decoration: underline;
+    color: silver;
+}
+.content{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 45%;
+    margin-bottom: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sub-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content img{
+    height: 400px;
+}
+.content p{
+    text-align: left;
+}
+#recommend{
+    text-align: left;
+}
+/* フッターの設定 */
+footer{
+    position: fixed;
+    bottom: 0%;
+}
