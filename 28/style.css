@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: Century;
+    font-family: Book Antiqua;
 }
 .sidemenu{
     position: fixed;
@@ -30,6 +30,10 @@ body{
     text-decoration: none;
 }
 
+.item-nav a:hover{
+    text-decoration: underline;
+}
+
 .side-line{
     line-height: 300%;
 }
@@ -39,6 +43,9 @@ body{
     margin-left: 20%;
     box-sizing: border-box;
     text-align: center;
+}
+#basic-information{
+    font-size: 40px;
 }
 
 .main img{
@@ -76,19 +83,27 @@ body{
 .titlediv{
     position: relative;
 }
-.titlediv img{
-    width: 100%;
-    height: auto;
+.titlediv h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    color: #f0f0f0;
 }
 
 .sub-title{
     text-decoration: underline;
-    color: silver;
+    color: #333333;
+
 }
 .content{
     border: 1px solid gray;
     border-radius: 10px;
     width: 45%;
+    margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px;
     box-sizing: border-box;
